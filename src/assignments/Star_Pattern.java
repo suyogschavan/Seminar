@@ -1,4 +1,4 @@
-package day_3;
+package assignments;
 
 public class Star_Pattern {
 

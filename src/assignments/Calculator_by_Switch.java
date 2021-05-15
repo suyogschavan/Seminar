@@ -1,4 +1,4 @@
-package day_3;
+package assignments;
 
 import java.util.Scanner;
 public class Calculator_by_Switch {
