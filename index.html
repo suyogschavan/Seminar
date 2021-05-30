@@ -1,41 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UFT-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Website</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-       
-        <!-- Navbar Section -->
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="#home" id="navbar__logo">SUYOG</a>
-                <!-- <img src="C:\Users\suyog\OneDrive\Pictures\Wallpapers\9QoC3eSV3huNGN9QEB63Nb"> -->
-                <div class="navbar__toggle" id="mobile">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="#home" class="navbar__links" id="home-page">Home</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#About" class="navbar__links" id="about-page">About</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#services" class="navbar__links" id="services-page">services</a>
-                    </li>
-                    <li class="navbar__btn">
-                        <a href="#Sign-up" class="button" id="Sign-up">Sign-up</a>
-                    </li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Suyog</a>
+            <!-- <img src="Images/wallpaper.png"> -->
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </nav>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about -page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    </body>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"> Hire your <span>dev.</span> </h1>
+            <p class="hero__description">Explore the Geek</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+
+    <!-- About Section  -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card">ICON</div>
+            </div>
+            <div class="main__content">
+                <h1>What I do?</h1>
+                <h2>I help businesses grow</h2>
+                <p>Conatct me to know more</p>
+                <button class="main__btn"><a href="#">Contact Me</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
 </html>
